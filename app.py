@@ -8,7 +8,7 @@ from pydantic import BaseModel
 # ============================
 #  BOT TOKEN
 # ============================
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7710890735:AAGx-FLcjXdK4GXOFRovjfh4fa2KWvqd6I8")
 bot = telebot.TeleBot(BOT_TOKEN)
 
 app = FastAPI()
